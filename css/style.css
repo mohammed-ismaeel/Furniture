@@ -1,0 +1,592 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./../assets/images/back.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 11px;
+}
+
+nav {
+    align-items: center;
+    padding: 0 5.12vw;
+}
+
+nav h1 {
+    font-size: 2.125rem;
+    color: #054c73;
+    margin-top: 45px;
+}
+
+nav ul {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 61px;
+    margin-top: 61px;
+    list-style: none;
+}
+
+nav ul li a {
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+}
+
+.list {
+    background-color: #00000000;
+    width: 24px;
+    height: 24px;
+    color: #6d6d70;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.hero .main {
+    background-color: #DFE9F4;
+    width: 47.0717vw;
+    height: 446px;
+    padding: 40px 3.66vw;
+    position: absolute;
+    top: 130px;
+    right: 0;
+}
+
+.hero .main .top-text {
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+.hero .main h1 {
+    max-width: 420px;
+    color: #054C73;
+    height: 118px;
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 65px;
+    padding-top: 13px;
+}
+
+.hero .main .text-content {
+    max-width: 525px;
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #333;
+    line-height: 39px;
+    padding-top: 22px;
+}
+
+.hero .main button {
+    background-color: #054c73;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 25px 72px;
+    margin-top: 60px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+/*-------------Global properties------------*/
+
+.container {
+    background-color: #fcfcfc;
+}
+
+.container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.container h2 {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #666;
+    padding-top: 12px;
+}
+
+.instagram-images img,
+.work-image img,
+.brows-image img,
+.collection-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.relative {
+    position: relative;
+}
+
+.section-padd {
+    padding: 100px 5.12vw;
+}
+
+/*---------Services section code--------*/
+.Services {
+    background-color: #f2f5ff;
+    color: #333;
+    align-items: center;
+    padding: 46px 5.12vw;
+}
+
+.service {
+    gap: 30px;
+}
+
+.service-text h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-bottom: 6px;
+}
+
+/*------collection code---------*/
+
+.collection-text {
+    text-align: center;
+}
+
+.Collection h2 {
+    max-width: 440px;
+    padding-top: 12px;
+}
+
+.collection-images {
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.collection-image {
+    max-width: 400px;
+}
+
+#center-collection-image {
+    margin-top: -30px;
+}
+
+/*-------beautify code--------*/
+.Beautify {
+    padding: 0 5.12vw;
+    padding-top: 30px;
+}
+
+.beautify-text {
+    max-width: 500px;
+    color: #666;
+}
+
+.beautify-text .p-1 {
+    padding-top: 47px;
+}
+
+.beautify-text p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 39px;
+    padding-top: 16px;
+}
+
+.Beautify button {
+    background-color: #054C73;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 25px 72px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/*-------brows code-----*/
+
+.brows-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Brows h2 {
+    max-width: 530px;
+}
+
+.brows-cards {
+    gap: 39px;
+    padding-top: 70px;
+}
+
+.brows-card {
+    color: #333;
+    text-align: center;
+}
+
+.brows-image {
+    max-width: 383px;
+}
+
+.brows-image img {
+    border-radius: 10px;
+}
+
+.brows-card h3 {
+    padding-top: 30px;
+}
+
+/*----------------------------*/
+hr {
+    color: #d7d6d6;
+}
+
+/*-------works code----------*/
+.works-text {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.Works h2 {
+    max-width: 530px;
+}
+
+.work-cards {
+    gap: 45px;
+    padding-top: 70px;
+}
+
+.work-image {
+    max-width: 380px;
+}
+
+.work-image img {
+    border-radius: 10px;
+}
+
+.work-image span {
+    color: #fff;
+    background-color: #111;
+    width: 90px;
+    height: 90px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid #fcfcfc;
+    border-radius: 50%;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.work-card {
+    text-align: center;
+}
+
+.work-card h3 {
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 75px;
+}
+
+.work-card p {
+    font-size: 1.25rem;
+    color: #666;
+    max-width: 360px;
+    text-align: center;
+    line-height: 28px;
+    padding-top: 12px;
+}
+
+/*-------join code---------*/
+.Join {
+    background-color: #f2f5ff;
+    padding: 90px 5.12vw;
+}
+
+.join-text {
+    text-align: center;
+}
+
+.Join h2 {
+    max-width: 530px;
+    line-height: 39px;
+    padding-top: 12px;
+}
+
+.submit-container {
+    background-color: #054c73;
+    max-width: 530px;
+    height: 77px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 3px;
+    border: 1px solid #054C73;
+}
+
+form input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding-left: 30px;
+}
+
+form button {
+    background: #054C73;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 700;
+    padding: 28px 45px;
+    border: 1px solid #011c42;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+
+form input::placeholder {
+    font-size: 1rem;
+    color: #011c42;
+    font-weight: 400;
+    opacity: 0.3;
+}
+
+/*------------------------------*/
+footer {
+    min-height: 465px;
+    background-color: #03344f;
+    padding: 100px 5.12vw;
+    color: #fff;
+}
+
+.Beauty h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.Beauty p {
+    max-width: 430px;
+    line-height: 35px;
+    padding-top: 25px;
+}
+
+.Instagram h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: end;
+}
+
+.instagram-images {
+    padding-top: 40px;
+    display: flex;
+    gap: 25px;
+}
+
+.instagram-images img {
+    border-radius: 2px;
+}
+
+/*--------media code---------*/
+@media (max-width:992px) {
+
+    /*------global code (media)-----*/
+    .container h1 {
+        font-size: 1.75rem;
+    }
+
+    .container h2 {
+        font-size: 0.875rem;
+        max-width: 280px;
+    }
+
+    .collection-images,
+    .Beautify,
+    .brows-cards,
+    .work-cards {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    span {
+        display: block;
+    }
+
+    /*------nav code (media)-------*/
+
+    nav ul {
+        display: none;
+    }
+
+    nav .list {
+        display: block;
+    }
+
+    nav {
+        height: 70px;
+    }
+
+    nav h1 {
+        margin: 0;
+        font-size: 1.375rem;
+    }
+
+    /*-----hero code (media)-----*/
+    .hero .main {
+        background: none;
+        width: 100vw;
+        text-align: center;
+        padding: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .hero .main h1 {
+        margin: 0 auto;
+        font-size: 1.875rem;
+        line-height: 43px;
+        min-width: 200px;
+    }
+
+    .hero .main .text-content {
+        font-size: 15px;
+        margin: 0 auto;
+        line-height: 28px;
+        text-align: center;
+    }
+
+    /*------service code media-----*/
+    .Services {
+        flex-wrap: wrap-reverse;
+        gap: 42px;
+        justify-content: center;
+    }
+
+    /*-------collection code (media)------*/
+    .Collection {
+        padding-top: 50px;
+    }
+
+    .collection-images {
+        gap: 25px;
+    }
+
+    .collection-images img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .collection-image {
+        max-width: 320px;
+        min-height: 394px;
+    }
+
+
+    #center-collection-image {
+        margin: auto;
+    }
+
+    /*-----beautify code (media)-----*/
+    .Beautify {
+        text-align: center;
+    }
+
+    .beautify-text h1 {
+        font-size: 1.75rem;
+        text-align: left;
+    }
+
+    .beautify-text p {
+        line-height: 34px;
+        text-align: left;
+    }
+
+    .beautify-image img {
+        max-width: 100vw;
+    }
+
+    .Beautify button {
+        margin: 40px 0;
+    }
+
+    /*------Works code media-----*/
+    .Works {
+        padding-top: 50px;
+    }
+
+    .work-text {
+        text-align: left;
+    }
+
+    .work-card p {
+        font-size: 0.9375rem;
+        text-align: inherit;
+    }
+
+    .work-image span {
+        width: 75px;
+        height: 75px;
+    }
+
+    /*------submit code (media)------*/
+    .submit-container {
+        margin-bottom: 90px;
+        max-height: 55px;
+    }
+
+    form button {
+        padding: 17.5px 42.5px;
+        position: absolute;
+        top: 75px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /*------footer code (media)-----*/
+    footer {
+        flex-wrap: wrap;
+    }
+
+    .Instagram h2 {
+        padding-top: 50px;
+        text-align: left;
+    }
+
+    .instagram-images {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .instagram-image {
+        max-width: 130px;
+    }
+}
