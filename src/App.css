@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Heavy / Bold version of Alexandria (weight: 900) */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/public/fonts/Montserrat/static/Montserrat-Regular.ttf");
+  font-weight: 400;
+}
+
+/* Extra Light version of Alexandria (weight: 100) */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/public/fonts/Montserrat/static/Montserrat-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+}
+
+/* SemiBold version of Alexandria (weight: 600) */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/public/fonts/Montserrat/static/Montserrat-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+}
+
+/* Regular / Medium version of Alexandria (weight: 400) */
+@font-face {
+  font-family: "Montserrat";
+  src: url("/public/fonts/Montserrat/static/Montserrat-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+}
